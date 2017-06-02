@@ -55,10 +55,10 @@
 	</wsdl:binding>
 	<wsdl:service name="Quoter">
 		<wsdl:port name="QuoterHttpSoap11Endpoint" binding="ns:QuoterSoap11Binding">
-			<soap:address location="http://localhost:8081/qotd/"/>
+			<soap:address location="https://manager-emea-trial.axway.io/qotd/"/>
 		</wsdl:port>
 		<wsdl:port name="QuoterHttpSoap12Endpoint" binding="ns:QuoterSoap12Binding">
-			<soap12:address location="http://localhost:8081/qotd/"/>
+			<soap12:address location="https://manager-emea-trial.axway.io/qotd/"/>
 		</wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
